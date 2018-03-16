@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/materialr/switch#readme",
   "dependencies": {
+    "@materialr/form-field": "^1.1.1",
     "@material/switch": "^0.32.0",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.1",
