@@ -4,4 +4,4 @@ services:
     build: "."
     container_name: "materialr-switch"
     volumes:
-      - ./:/app
+      - ./:/home/node/app
