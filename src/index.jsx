@@ -37,7 +37,9 @@ class Switch extends React.Component {
       getId,
       props: {
         checked,
+        className,
         disabled,
+        id,
         label,
         name,
         onBlur,
