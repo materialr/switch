@@ -35,12 +35,24 @@ class Switch extends React.Component {
     const {
       getClassNames,
       getId,
-      props: { checked, disabled, label, name, onBlur, onChange, onDragStart, onDrop, onFocus },
+      props: {
+        checked,
+        disabled,
+        label,
+        name,
+        onBlur,
+        onChange,
+        onDragStart,
+        onDrop,
+        onFocus,
+        ...props
+      },
     } = this;
     return (
       <div
         className="mdc-form-field"
         ref={(elementFormField) => { this.elementFormField = elementFormField; }}
+        {...props}
       >
         <div className={getClassNames()}>
           <input
